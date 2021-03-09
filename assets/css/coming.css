@@ -1,19 +1,16 @@
-/**
-* Template Name: Maundy - v2.2.1
-* Template URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: rgb(8, 8, 8);
-  background: url("../img/bg.jpg") top center no-repeat;
+  
+  /* color: rgb(8, 8, 8);
+  background: url("../img/bg.jpg") top center no-repeat; */
   background-size: cover;
   position: relative;
+  background: url(https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  opacity: 3;
 }
 
 body::before {
@@ -328,6 +325,7 @@ section {
 }
 
 .about .title {
+  color: #fff;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;

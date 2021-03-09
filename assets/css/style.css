@@ -516,8 +516,11 @@ section {
 /*--------------------------------------------------------------
 # Cliens
 --------------------------------------------------------------*/
-.cliens {
-  /* width: 20px; */
+
+
+
+ /* .cliens {
+  width: 20px;
   height: 90px;
   padding: 12px 0;
   text-align: center;
@@ -525,12 +528,22 @@ section {
 
 .cliens img {
   margin-top: -20px;
-  /* width: 30px; */
+  width: 30px;
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
   filter: grayscale(100);
+  animation: cliens 1s linear infinite;
+}
+
+@keyframes cliens {
+  0%{
+    transform: translateX(40000px);
+  }
+  0%{
+    transform: translateX(20px);
+  }
 }
 
 .cliens img:hover {
@@ -540,9 +553,45 @@ section {
 
 @media (max-width: 768px) {
   .cliens img {
-    max-width: 40%;
+    max-width: 50%;
   }
+} */
+ .clients .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
+
+.clients .owl-item img {
+  width: 60%;
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients .owl-item img:hover {
+  opacity: 1;
+  filter: none;
+}
+
+.clients .owl-nav, .clients .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.clients .owl-dot.active {
+  background-color: #e03a3c !important;
+} 
 
 /*--------------------------------------------------------------
 # About Us
@@ -717,7 +766,7 @@ section {
 
 @media (max-width: 992px) {
   .why-us .img {
-    min-height: 400px;
+    height: 400px;
   }
   .why-us .content {
     padding-top: 30px;
@@ -729,7 +778,7 @@ section {
 
 @media (max-width: 575px) {
   .why-us .img {
-    min-height: 200px;
+    height: 100px;
   }
 }
 
