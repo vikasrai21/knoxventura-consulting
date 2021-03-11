@@ -885,6 +885,11 @@ section {
 .services .icon-box:hover h4 a {
   color: #47b2e4;
 }
+@media (max-width: 767px){
+  .services h2{
+    font-size: 46px;
+  }
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -1267,6 +1272,12 @@ section {
   color: #a5a5a5;
   letter-spacing: 1px;
 }
+@media (max-width: 767px){
+.team .p{
+  font-size: 2px;
+  color: #4b4a4a;
+}
+}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1381,6 +1392,9 @@ section {
 }
 
 @media (max-width: 767px) {
+  .pricing h2{
+    font-size: 30px;
+  }
   .pricing .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
@@ -1472,6 +1486,11 @@ section {
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
+  }
+}
+@media (max-width: 767px){
+  .faq h2{
+    font-size: 30px;
   }
 }
 
@@ -1667,7 +1686,14 @@ section {
     transform: rotate(360deg);
   }
 }
-
+@media (max-width: 767px){
+  .contact h2{
+    font-size: 30px;
+  }
+  .contact iframe{
+    width: 100%;
+  }
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
