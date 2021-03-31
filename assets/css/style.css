@@ -2000,7 +2000,9 @@ section {
 
 #footer .credits {
   float: right;
-  font-size: 13px;
+  font-size: 16px;
+  /* padding: px; */
+  letter-spacing: 2px;
 }
 
 #footer .credits a {
