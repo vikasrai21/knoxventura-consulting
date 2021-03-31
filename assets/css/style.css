@@ -1486,7 +1486,9 @@ section {
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
-
+.faq-list .col:hover{
+  color: #0a0a0a;
+}
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
