@@ -1,4 +1,3 @@
-Thanks for downloading this template!
 
 Template Name: knoxventura
 Template URL: #
